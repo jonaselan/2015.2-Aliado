@@ -29,7 +29,7 @@ module.exports = function() {
     'use strict';
     var count = 0;
 
-    for (var x = 1; x < limitador_jogadas; x++) {
+    for (var x = 1; x <= limitador_jogadas; x++) {
       if (dados[x] === dados[0]) {
         count += 1;
       } else {
